@@ -2,7 +2,7 @@
 function setupAutoHide() {
     const auto_hide = $('.autohide');
 
-    const nav_height = $('.navbar').outerHeight();
+    const nav_height = $('.navbar').outerHeight() + 15;
     $('body').css('paddingTop', nav_height + 'px');
 
     if (auto_hide) {
@@ -41,7 +41,7 @@ function setupLinkScroll() {
 
 function setupNav() {
     $('#nav').html(`
-    <nav class='autohide navbar fixed-top navbar-dark bg-dark'>
+    <nav class='autohide navbar navbar-expand-lg fixed-top navbar-dark bg-dark'>
         <a class="navbar-brand" href="index.html">Ambisonic Audio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -49,10 +49,13 @@ function setupNav() {
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link link-scroll" href="jazz.html">Jazz Combo</a>
+                    <a class="nav-link link-scroll" href="index.html">Thesis</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link link-scroll" href="speaking.html">Directional Speaking</a>
+                    <a class="nav-link link-scroll" href="jazz.html">Jazz</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link link-scroll" href="speaking.html">Directional Sound</a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link link-scroll" href="percussion.html">Percussion</a>
