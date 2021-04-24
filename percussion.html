@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
     <script
         src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -15,15 +13,32 @@
     <link rel='stylesheet' href='css/style.css'>
 
     <title>Ambisonic Audio | Percussion</title>
+
+    <style>
+        .table tr td {
+            min-width: 200px;
+        }
+
+        .btn {
+            min-width: 100%;
+        }
+    </style>
 </head>
+
 <body>
     <div id='nav'></div>
 
-    <hl>Hello World</hl>
-    <p>I'm hosted with GitHub Pages.</p>
-    <p>Noah's</p>
+    <div style="width: 80%; margin: 50px 0 0 50px;">
+        <table class='table table-striped'>
+            <thead>
+                <tr><h2 id='jazz-combo-header'>Percussion</h2></tr>
+            </thead>
+            <tbody id="percussion"></tbody>
+        </table>
+    </div>
 
     <script src='document.js'></script>
+
+    <script src='content/precussion.js'></script>
 </body>
-</html>
 
