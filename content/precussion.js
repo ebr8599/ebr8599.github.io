@@ -5,12 +5,12 @@ const PercussionGuiroSoundFiles = [
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Idillo/Guiro/Idillo Guiro Bambix.wav",
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "BFUMA",
+        title: "B-FuMa",
         file: "sounds/Idillo/Guiro/Idillo Guiro BFUMA.wav",
         description: "Percussion playing. Ow my ears"
     },
@@ -44,12 +44,12 @@ const PercussionMaraccaSoundFiles = [
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Idillo/Maracca/Idillo Mar Bambix.wav",
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "BFUMA",
+        title: "B-FuMa",
         file: "sounds/Idillo/Maracca/Idillo Mar BFUMA.wav",
         description: "Percussion playing. Ow my ears"
     },
@@ -88,12 +88,12 @@ const PercussionTimbalesSoundFiles = [
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Idillo/Timbales/Timbales Bambix-008.wav",
         description: "Percussion playing. Ow my ears"
     },
     {
-        title: "Fuma",
+        title: "B-FuMa",
         file: "sounds/Idillo/Timbales/Timbales Fuma.wav",
         description: "Percussion playing. Ow my ears"
     },
