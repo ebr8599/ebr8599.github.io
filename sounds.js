@@ -33,7 +33,8 @@ class Button {
 
 class Sound {
     constructor(name, file, description, board) {
-        this.sound = new Audio(file);
+        this.file = file;
+        this.sound = undefined;
 
         this.board = board;
 
@@ -41,6 +42,9 @@ class Sound {
 
         this.playButton = new Button((event) => {
             if (this.isPlaying === false) {
+                if (this.sound === undefined) {
+                    this.sound = new Audio(this.file);
+                }
                 this.play($(event.currentTarget));
             }
             else {
@@ -62,7 +66,7 @@ class Sound {
     }
 
     playButtonElement() {
-        return this.playButton.element();
+        return `<audio controls><source src='${this.file}' type='audio/wav'></audio>`;
     }
 
     play(ele) {
