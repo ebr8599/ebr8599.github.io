@@ -5,7 +5,7 @@ const BetweenDirectionsSoundFiles = [
         description: "People talking in a room"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Celia and Ethan/Between/Between Bambix.wav",
         description: "People talking in a room"
     },
@@ -25,7 +25,7 @@ const BetweenDirectionsSoundFiles = [
         description: "People talking in a room"
     },
     {
-        title: "FUMA",
+        title: "B-FuMa",
         file: "sounds/Celia and Ethan/Between/Between Fuma.wav",
         description: "People talking in a room"
     },
@@ -60,7 +60,7 @@ const DirectionalDrumsSoundFiles = [
         description: "People talking in a room"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Celia and Ethan/Box Hitting/Box Hitting Bambix.wav",
         description: "People talking in a room"
     },
@@ -134,7 +134,7 @@ const DirectionalForwardBackwardSoundFiles = [
         description: "aefjaosdfoasjdfojadosfh"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Celia and Ethan/FB/LN BAmbix.wav",
         description: "aefjaosdfoasjdfojadosfh"
     },
@@ -173,12 +173,12 @@ const DirectionalFootstepSoundFiles = [
         description: "People talking in a room"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Celia and Ethan/Footsteps/Footsteps Bambix.wav",
         description: "People talking in a room"
     },
     {
-        title: "BFuma",
+        title: "B-FuMa",
         file: "sounds/Celia and Ethan/Footsteps/Footsteps BFuma.wav",
         description: "People talking in a room"
     },
@@ -222,7 +222,7 @@ const DirectionalLeftSoundFiles = [
         description: "People talking in a room"
     },
     {
-        title: "Bambix",
+        title: "B-Ambix",
         file: "sounds/Celia and Ethan/LRFB/LRFB BAmbix.wav",
         description: "People talking in a room"
     },

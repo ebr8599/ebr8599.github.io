@@ -1,10 +1,5 @@
 const JazzElevactorSoundFiles = [
     {
-        title: "Bamb-001",
-        file: "sounds/Elevator Music/Elevator Music Bamb-001.wav",
-        description: "Fuma Elevator yay"
-    },
-    {
         title: "DMS 4 Channel 001",
         file: "sounds/Elevator Music/Elevator Music DMS 4 chan-001.wav",
         description: "Fuma Elevator yay"
@@ -20,8 +15,13 @@ const JazzElevactorSoundFiles = [
         description: "Fuma Elevator yay"
     },
     {
-        title: "Fuma",
+        title: "B-FuMa",
         file: "sounds/Elevator Music/Elevator Music Fuma.wav",
+        description: "Fuma Elevator yay"
+    },
+    {
+        title: "B-Ambix",
+        file: "sounds/Elevator Music/Elevator Music Bamb-001.wav",
         description: "Fuma Elevator yay"
     },
     {
