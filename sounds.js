@@ -66,7 +66,7 @@ class Sound {
     }
 
     playButtonElement() {
-        return `<audio controls><source src='${this.file}' type='audio/wav'></audio>`;
+        return `<audio controls id='${this.file}'><source src='${this.file}' type='audio/wav'></audio>`;
     }
 
     play(ele) {
@@ -82,6 +82,19 @@ class Sound {
     }
 }
 
+function stopAll(e) {
+    const current_element_id = $(e.currentTarget).attr('id');
+    
+    $('audio').each(function() {
+        const $this = $(this);
+        const element_id = $this.attr('id');
+
+        if (current_element_id !== element_id) {
+            $this[0].pause();
+            $this[0].currentTime = 0;
+        }
+    });
+}
 
 class SoundBoard {
     constructor(SoundFiles, id) {
@@ -129,6 +142,10 @@ class SoundBoard {
             
             table.append(soundRow);
             soundRow = $(document.createElement('tr'));
+        });
+
+        $('audio').each(function() {
+            $(this).bind('play', stopAll);
         });
     }
 }
