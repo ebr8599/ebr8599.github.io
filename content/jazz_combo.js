@@ -50,33 +50,43 @@ jazzElevatorComboSounds.renderBoard();
 
 const JazzPlatzSoundFiles = [
     {
-        title: "Jazz Combo",
-        file: "w",
+        title: "Ambix",
+        file: "sounds/Jazz Combo/Short Ambix.wav",
         description: "A jazz combo playing"
     },
     {
-        title: "Jazz Combo",
-        file: "x",
+        title: "Combo OH LR",
+        file: "sounds/Jazz Combo/Short Combo OH LR.wav",
         description: "A jazz combo playing"
     },
     {
-        title: "Jazz Combo",
-        file: "a",
+        title: "DMS 4 Channel",
+        file: "sounds/Jazz Combo/Short DMS 4 chan.wav",
         description: "A jazz combo playing"
     },
     {
-        title: "Jazz Combo",
-        file: "z",
+        title: "FuMa",
+        file: "sounds/Jazz Combo/Short FuMa.wav",
         description: "A jazz combo playing"
     },
     {
-        title: "Jazz Combo",
-        file: "y",
+        title: "Mono",
+        file: "sounds/Jazz Combo/Short Mono.wav",
         description: "A jazz combo playing"
     },
     {
-        title: "Jazz Combo",
-        file: "s",
+        title: "Stereo Real",
+        file: "sounds/Jazz Combo/Short Stereo Real.wav",
+        description: "A jazz combo playing"
+    },
+    {
+        title: "XY Stereo 90",
+        file: "sounds/Jazz Combo/Short XY Stereo 90.wav",
+        description: "A jazz combo playing"
+    },
+    {
+        title: "XY Stereo 120",
+        file: "sounds/Jazz Combo/Short XY Stereo 120.wav",
         description: "A jazz combo playing"
     },
 ];
